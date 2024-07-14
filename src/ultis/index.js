@@ -62,5 +62,5 @@ const data = [
     },
 ]
 
-const breakPoint = 15
+const breakPoint = 12
 export const words = data.slice(0, breakPoint)

@@ -38,7 +38,7 @@ function App() {
             } else {
                 console.log('there two card no matched')
 
-                setTimeout(() => resetTurn(), 1000)
+                setTimeout(() => resetTurn(), 500)
                 // resetTurn()
             }
         }
