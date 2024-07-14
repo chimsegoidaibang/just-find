@@ -1,12 +1,18 @@
-const Card = () => {
+const Card = ({ card, handleChoice, flipped, disable }) => {
+    function handleClick() {
+        if (!disable) handleChoice(card)
+    }
+    const classes = flipped ? 'card-inner flipped' : 'card-inner'
     return (
-        <div className='card'>
-            <div className='card-inner'>
+        <div
+            className='card'
+            onClick={handleClick}>
+            <div className={classes}>
                 <div className='font'>
-                    <h2>Font</h2>
+                    <h2 className='text'>{}</h2>
                 </div>
                 <div className='back'>
-                    <h2>Back</h2>
+                    <h2 className='text'>{card.value}</h2>
                 </div>
             </div>
         </div>
