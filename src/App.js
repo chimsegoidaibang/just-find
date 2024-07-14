@@ -79,7 +79,7 @@ function App() {
                         />
                     ))}
             </div>
-            <p>turns: {turns}</p>
+            <p className='turn-number'>{turns && turns + ' turn'} </p>
         </div>
     )
 }
