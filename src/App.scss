@@ -41,7 +41,7 @@ button.btn {
     @include for-size(phone-sm) {
         height: 100%;
         width: 100%;
-        gap: 12px;
+        gap: 4px;
     }
     width: 90%;
     height: 90%;
@@ -76,7 +76,7 @@ button.btn {
             position: relative;
             @include for-size(phone-sm) {
                 width: 100%;
-                height: 64px;
+                height: 58px;
             }
             width: 80px;
             height: 80px;
