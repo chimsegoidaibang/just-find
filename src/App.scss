@@ -41,6 +41,7 @@ button.btn {
     @include for-size(phone-sm) {
         height: 100%;
         width: 100%;
+        gap: 12px;
     }
     width: 90%;
     height: 90%;
@@ -63,8 +64,7 @@ button.btn {
         @include for-size(phone-sm) {
             grid-template-columns: repeat(3, 1fr);
             gap: 4px;
-            margin: 12px;
-            padding: 0 12px;
+            padding: 0 4px;
         }
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr);
